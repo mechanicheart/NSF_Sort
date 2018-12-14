@@ -67,7 +67,7 @@ int main()
 		fclose(fp);
 	}
 	_findclose(file);
-	FILE *wp = fopen(Save_File,"w");
+	FILE *wp = fopen(Save_File,"w+");
 	for(i = 0;i < pos;i++)
 		fprintf(wp,Output_Format,nsf[i].chs_name,nsf[i].org_name,nsf[i].artist,nsf[i].copyright,nsf[i].extra);
 	//printf("%d",L);
