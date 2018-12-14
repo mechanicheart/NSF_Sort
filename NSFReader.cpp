@@ -18,7 +18,7 @@ void string_filter(char s[],char d[])
 int main()
 {
 	long file;
-	_chdir(ADDRESS);
+	_chdir(TEST_ADDRESS);
 	int i , pos = 0;
 	if((file = _findfirst("*.*", &find))==-1L)
 	{
