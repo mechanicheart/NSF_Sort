@@ -9,7 +9,7 @@
 #define Max_Size 2000
 #define NAME_LIMIT 100
 #define NSF_NAME_LIMIT 32
-#define ADDRESS "d:\\Famitracker制作\\FC BGM NSF\\123"
+#define TEST_ADDRESS "d:\\FC BGM NSF\\123"
 #define Save_File "NSFReader.txt"
 #define Output_Format "%s\t\t%s\t\t%s\t\t%s\t\t%s\n"
 
